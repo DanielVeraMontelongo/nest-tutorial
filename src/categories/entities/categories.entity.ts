@@ -19,10 +19,11 @@ export class Category{
 
     @ManyToMany(() => Book, (book) => book.categories)
     @JoinTable({
-        name: "books_entities",
+        name: "books_categories",
         joinColumn:{
-            name: "entity_id"
-        }, inverseJoinColumn:{
+            name: "category_id"
+        }, 
+        inverseJoinColumn:{
             name:"book_id"
         }
     })

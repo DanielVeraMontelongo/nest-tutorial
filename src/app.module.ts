@@ -17,7 +17,7 @@ import { Category } from './categories/entities/categories.entity';
       host:'localhost',
       port:3306,
       username:'root',
-      password:'codenotch',
+      password:'Hh_659654276',//codenotch
       database:'nestprueba',
       entities: [User, Profile, Photo, Book, Category],
       synchronize:true
